@@ -14,6 +14,8 @@
 		E4B4342A2A0C92E5000BB974 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434292A0C92E5000BB974 /* CategoryHome.swift */; };
 		E4B4342C2A0C9417000BB974 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4342B2A0C9417000BB974 /* Landmark.swift */; };
 		E4B4342F2A0C94EC000BB974 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4342E2A0C94EC000BB974 /* ModelData.swift */; };
+		E4B434312A0C9628000BB974 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434302A0C9628000BB974 /* CategoryRow.swift */; };
+		E4B434332A0C96F4000BB974 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434322A0C96F4000BB974 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E4B434292A0C92E5000BB974 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		E4B4342B2A0C9417000BB974 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		E4B4342E2A0C94EC000BB974 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E4B434302A0C9628000BB974 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		E4B434322A0C96F4000BB974 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				E4B434212A0C91F2000BB974 /* Preview Content */,
 				E4B434292A0C92E5000BB974 /* CategoryHome.swift */,
 				E4B4342B2A0C9417000BB974 /* Landmark.swift */,
+				E4B434302A0C9628000BB974 /* CategoryRow.swift */,
+				E4B434322A0C96F4000BB974 /* CategoryItem.swift */,
 			);
 			path = "Composing Complex Interfaces";
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 				E4B4341D2A0C91F1000BB974 /* ContentView.swift in Sources */,
 				E4B4342A2A0C92E5000BB974 /* CategoryHome.swift in Sources */,
 				E4B4342F2A0C94EC000BB974 /* ModelData.swift in Sources */,
+				E4B434332A0C96F4000BB974 /* CategoryItem.swift in Sources */,
 				E4B4341B2A0C91F1000BB974 /* Composing_Complex_InterfacesApp.swift in Sources */,
+				E4B434312A0C9628000BB974 /* CategoryRow.swift in Sources */,
 				E4B4342C2A0C9417000BB974 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
