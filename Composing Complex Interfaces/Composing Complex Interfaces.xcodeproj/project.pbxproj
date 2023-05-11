@@ -12,6 +12,8 @@
 		E4B4341F2A0C91F2000BB974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B4341E2A0C91F2000BB974 /* Assets.xcassets */; };
 		E4B434232A0C91F2000BB974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B434222A0C91F2000BB974 /* Preview Assets.xcassets */; };
 		E4B4342A2A0C92E5000BB974 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434292A0C92E5000BB974 /* CategoryHome.swift */; };
+		E4B4342C2A0C9417000BB974 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4342B2A0C9417000BB974 /* Landmark.swift */; };
+		E4B4342F2A0C94EC000BB974 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4342E2A0C94EC000BB974 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E4B434202A0C91F2000BB974 /* Composing_Complex_Interfaces.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Composing_Complex_Interfaces.entitlements; sourceTree = "<group>"; };
 		E4B434222A0C91F2000BB974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4B434292A0C92E5000BB974 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		E4B4342B2A0C9417000BB974 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		E4B4342E2A0C94EC000BB974 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		E4B434192A0C91F1000BB974 /* Composing Complex Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				E4B4342D2A0C94E0000BB974 /* Model */,
 				E4B4341A2A0C91F1000BB974 /* Composing_Complex_InterfacesApp.swift */,
 				E4B4341C2A0C91F1000BB974 /* ContentView.swift */,
 				E4B4341E2A0C91F2000BB974 /* Assets.xcassets */,
 				E4B434202A0C91F2000BB974 /* Composing_Complex_Interfaces.entitlements */,
 				E4B434212A0C91F2000BB974 /* Preview Content */,
 				E4B434292A0C92E5000BB974 /* CategoryHome.swift */,
+				E4B4342B2A0C9417000BB974 /* Landmark.swift */,
 			);
 			path = "Composing Complex Interfaces";
 			sourceTree = "<group>";
@@ -70,6 +76,14 @@
 				E4B434222A0C91F2000BB974 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4B4342D2A0C94E0000BB974 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4B4342E2A0C94EC000BB974 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +158,9 @@
 			files = (
 				E4B4341D2A0C91F1000BB974 /* ContentView.swift in Sources */,
 				E4B4342A2A0C92E5000BB974 /* CategoryHome.swift in Sources */,
+				E4B4342F2A0C94EC000BB974 /* ModelData.swift in Sources */,
 				E4B4341B2A0C91F1000BB974 /* Composing_Complex_InterfacesApp.swift in Sources */,
+				E4B4342C2A0C9417000BB974 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
